@@ -59,7 +59,7 @@ char answer1[10];
 	char line48[] = {"\tJazenca rips her shirt apart and exposes her bosom..\n\n"};
 	char line49[] = {"\tAt the blink of an eye, Paulo stands close to his sister gripping her neck with his\n"};
 	char line50[] = {"\tscarred arm moaning ferosiously but somewhat quietly.\n\n"};
-	char line51[] = {"Paulo- \"Grrrnngghhh\"\n\n"};
+	char line51[] = {"Paulo - \"Grrrnngghhh\"\n\n"};
 	char line52[] = {"\tBut then..\n\tPaulo retires and walks toward the gate leading out of the room.\n"};
 	char line53[] = {"\tHe halts right before entrance, turns his head towards you and smiles..\n\n"};
 	char line54[] = {"Paulo - \"he..he...he\"\n\n"};
@@ -86,11 +86,11 @@ void question1(char answer1Buffer[])
 		if (isdigit(answer1Buffer[0])) {
 			int i = atoi(answer1Buffer);
 			if (i == 1) {
-				sleepfunc(answer_1, 30);
+				sleepfunc(answer_1, 50);
 			} else if (i == 2) {
-				sleepfunc(answer_2, 30);
+				sleepfunc(answer_2, 50);
 			} else if (i == 3) {
-				sleepfunc(answer_3, 30);
+				sleepfunc(answer_3, 50);
 			} else {
 				printf("Invalid answer...\n");
 				sleepfunc(line14, 30);
@@ -117,65 +117,65 @@ int main(int argc, char *argv[])
 
 	printf("\n\n");
 
-	sleepfunc(line1, 0);	
-	sleepfunc(line2, 0);
-	sleepfunc(line3, 0);
-	sleepfunc(line4, 0);
-	sleepfunc(line5, 0);
-	sleepfunc(line6, 0);
-	sleepfunc(line7, 0);
-	sleepfunc(line8, 0); 
-	sleepfunc(line9, 0);
-	sleepfunc(line10, 0);
-	sleepfunc(line11, 0);
-	sleepfunc(line12, 0);
-	sleepfunc(line13, 0);
-	sleepfunc(line14, 0);
+	sleepfunc(line1, 50);	
+	sleepfunc(line2, 50);
+	sleepfunc(line3, 50);
+	sleepfunc(line4, 50);
+	sleepfunc(line5, 50);
+	sleepfunc(line6, 50);
+	sleepfunc(line7, 50);
+	sleepfunc(line8, 50); 
+	sleepfunc(line9, 50);
+	sleepfunc(line10, 50);
+	sleepfunc(line11, 50);
+	sleepfunc(line12, 50);
+	sleepfunc(line13, 50);
+	sleepfunc(line14, 50);
 	
 	scanf("%s", &answer1);
 
 	question1(answer1);	
 
-	sleepfunc(line15, 0);
-	sleepfunc(line16, 0);
-	sleepfunc(line17, 0);
-	sleepfunc(line18, 0);
-	sleepfunc(line19, 0);	
-	sleepfunc(line20, 0);
-	sleepfunc(line21, 0);
-	sleepfunc(line22, 0);
-	sleepfunc(line23, 0);
-	sleepfunc(line24, 0);	
-	sleepfunc(line25, 0);
-	sleepfunc(line26, 0);
-	sleepfunc(line27, 0);
-	sleepfunc(line28, 0);
-	sleepfunc(line29, 0);
-	sleepfunc(line30, 0);
-	sleepfunc(line31, 0);
-	sleepfunc(line32, 0);
-	sleepfunc(line33, 0);	
-	sleepfunc(line34, 0);
-	sleepfunc(line35, 0); 
-	sleepfunc(line36, 0); 
-	sleepfunc(line37, 0); 
-	sleepfunc(line38, 0); 
-	sleepfunc(line39, 0);
-	sleepfunc(line40, 0); 
-	sleepfunc(line41, 0); 
-	sleepfunc(line42, 0); 
-	sleepfunc(line43, 0);
-	sleepfunc(line44, 0);
-	sleepfunc(line45, 0); 
-	sleepfunc(line46, 0); 
-	sleepfunc(line47, 0); 
-	sleepfunc(line48, 0);
-	sleepfunc(line49, 0); 
-	sleepfunc(line50, 0); 
-	sleepfunc(line51, 0);
-	sleepfunc(line52, 0);
-	sleepfunc(line53, 0); 
-	sleepfunc(line54, 0); 
+	sleepfunc(line15, 50);
+	sleepfunc(line16, 50);
+	sleepfunc(line17, 50);
+	sleepfunc(line18, 50);
+	sleepfunc(line19, 50);	
+	sleepfunc(line20, 50);
+	sleepfunc(line21, 50);
+	sleepfunc(line22, 50);
+	sleepfunc(line23, 50);
+	sleepfunc(line24, 50);	
+	sleepfunc(line25, 50);
+	sleepfunc(line26, 50);
+	sleepfunc(line27, 50);
+	sleepfunc(line28, 50);
+	sleepfunc(line29, 50);
+	sleepfunc(line30, 50);
+	sleepfunc(line31, 50);
+	sleepfunc(line32, 50);
+	sleepfunc(line33, 50);	
+	sleepfunc(line34, 50);
+	sleepfunc(line35, 50); 
+	sleepfunc(line36, 50); 
+	sleepfunc(line37, 50); 
+	sleepfunc(line38, 50); 
+	sleepfunc(line39, 50);
+	sleepfunc(line40, 50); 
+	sleepfunc(line41, 50); 
+	sleepfunc(line42, 50); 
+	sleepfunc(line43, 50);
+	sleepfunc(line44, 50);
+	sleepfunc(line45, 50); 
+	sleepfunc(line46, 50); 
+	sleepfunc(line47, 50); 
+	sleepfunc(line48, 50);
+	sleepfunc(line49, 50); 
+	sleepfunc(line50, 50); 
+	sleepfunc(line51, 50);
+	sleepfunc(line52, 50);
+	sleepfunc(line53, 50); 
+	sleepfunc(line54, 50); 
 	
 	return 0;
 }	
